@@ -2,8 +2,8 @@ import java.util.*;
 public class prg2{
 public static void main(String[] args){
 
-String a = "pragateesh";
-String b = "pra";
+String a = "agash";
+String b = "ag";
 int c = 0;
 for(int i = 0 ; i <= a.length() - b.length() ; i++){
 	String x = a.substring(i , i + b.length());
@@ -13,5 +13,6 @@ for(int i = 0 ; i <= a.length() - b.length() ; i++){
 
 }
 System.out.println(c);
+
 
 }}
